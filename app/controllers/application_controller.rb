@@ -21,10 +21,9 @@ class ApplicationController < Sinatra::Base
 
     if user
       redirect "/login"
-    else  
+    else
       redirect "/failure"
     end
-
   end
 
   get '/account' do
